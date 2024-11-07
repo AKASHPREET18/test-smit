@@ -3,7 +3,7 @@ function Grant-FullControlToAssetsFolder {
     $folderPath = "C:\pcc\wwwroot\guides.ui\assets"
 
     # Define the identity for the Users group
-    $identity = "Users"  # You can use the full identity if necessary, e.g., "MT-LAP-042\Users"
+    $identity = "Users"  # You can also use a fully qualified name like "MT-LAP-042\Users"
 
     try {
         # Get the existing access control settings
