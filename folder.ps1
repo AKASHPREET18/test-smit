@@ -1,6 +1,6 @@
 function Grant-FullControlToAssetsFolder {
     # Define the folder path
-    $folderPath = "C:\pcc\wwwroot\guides.ui\assets"
+    $folderPath = "C:\pcc\wwwroot\guides.ui\assets1"
 
     # Define the identity for the Users group
     $identity = "Users"  # You can also use a fully qualified name like "MT-LAP-042\Users"
